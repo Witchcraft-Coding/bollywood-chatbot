@@ -25,6 +25,12 @@ h1 {
 	font-size: 40px;
 }
 
+h2 {
+	text-align: center;
+	font-size: 15px;
+	margin-top: 90px;
+}
+
 #selection-wrapper {
 	width: fit-content;
 	margin: 25px auto;
@@ -65,7 +71,7 @@ h1 {
 	align-self: flex-end;
 }
 
-.left::after {
+/* .left::after {
 	content: '';
 	position: absolute;
 	left: 10%;
@@ -78,9 +84,9 @@ h1 {
 	border-top: 0;
 	margin-top: -10px;
 	margin-left: -20px;
-}
+} */
 
-.right::after {
+/* .right::after {
 	content: '';
 	position: absolute;
 	right: 10%;
@@ -93,16 +99,16 @@ h1 {
 	border-top: 0;
 	margin-top: -10px;
 	margin-right: -20px;
-}
+} */
 
-.input {
+#input {
 	margin-top: 10px;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 }
 
-.input-box {
+#input-box {
 	padding: 8px;
 	flex: 80;
 	margin: 0;
@@ -111,7 +117,7 @@ h1 {
 	border: none;
 }
 
-.send {
+#send {
 	flex: 20;
 	margin: 0;
 	font-size: 20px;
@@ -121,6 +127,6 @@ h1 {
 	border-radius: 0 6px 6px 0;
 }
 
-.send:hover, .send:active, .send:focus {
+#send:hover, #send:active, #send:focus {
 	filter: brightness(90%);
 }
